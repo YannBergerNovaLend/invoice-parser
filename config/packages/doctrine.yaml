@@ -1,0 +1,16 @@
+doctrine:
+  dbal:
+    driver: 'pdo_pgsql'
+    url: '%env(DATABASE_URL)%'
+    types:
+      json: Doctrine\DBAL\Types\JsonType  # Si tu utilises des champs JSON dans ta base de données.
+
+  orm:
+    auto_generate_proxy_classes: true
+    naming_strategy: doctrine.orm.naming_strategy.underscore
+    auto_mapping: true
+    mappings:
+      App\Entity:
+        dir: '%kernel.project_dir%/src/Entity'
+        prefix: 'App\Entity'
+        is_bundle: false
