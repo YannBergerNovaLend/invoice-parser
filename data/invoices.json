@@ -1,0 +1,62 @@
+[
+  {
+    "montant": 670.43,
+    "devise": "EUR",
+    "nom": "Frank Green",
+    "date": "2025-02-03"
+  },
+  {
+    "montant": 852.38,
+    "devise": "EUR",
+    "nom": "John Doe",
+    "date": "2025-02-03"
+  },
+  {
+    "montant": 135.87,
+    "devise": "USD",
+    "nom": "Jane Smith",
+    "date": "2025-02-03"
+  },
+  {
+    "montant": 572.52,
+    "devise": "JPY",
+    "nom": "Jane Smith",
+    "date": "2025-02-03"
+  },
+  {
+    "montant": 719.77,
+    "devise": "GBP",
+    "nom": "Charlie Davis",
+    "date": "2025-02-03"
+  },
+  {
+    "montant": 648.78,
+    "devise": "JPY",
+    "nom": "Frank Green",
+    "date": "2025-02-03"
+  },
+  {
+    "montant": 72.04,
+    "devise": "JPY",
+    "nom": "Eve White",
+    "date": "2025-02-03"
+  },
+  {
+    "montant": 730.02,
+    "devise": "GBP",
+    "nom": "David Wilson",
+    "date": "2025-02-03"
+  },
+  {
+    "montant": 899.88,
+    "devise": "EUR",
+    "nom": "Hannah Blue",
+    "date": "2025-02-03"
+  },
+  {
+    "montant": 450.61,
+    "devise": "EUR",
+    "nom": "Alice Johnson",
+    "date": "2025-02-03"
+  }
+]

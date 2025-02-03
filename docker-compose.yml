@@ -1,0 +1,33 @@
+services:
+  app:
+    build: .
+    image: php:8.2-fpm
+    container_name: symfony_app
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    environment:
+      - SYMFONY_ENV=dev
+    networks:
+      - symfony_network
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    environment:
+      POSTGRES_DB: app
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: '!ChangeMe!'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - symfony_network
+
+volumes:
+  postgres_data:
+
+networks:
+  symfony_network:
+    driver: bridge
