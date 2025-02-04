@@ -31,7 +31,7 @@ Ce projet est une application Symfony qui permet de parser des fichiers de type 
    docker-compose exec app composer install
    ```
 
-4. Crée la base de données et exécute les migrations.
+4. Créer la base de données et exécute les migrations.
 
    ```bash
    docker-compose exec app php bin/console doctrine:migrations:migrate
