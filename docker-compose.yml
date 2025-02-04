@@ -24,6 +24,8 @@ services:
       - postgres_data:/var/lib/postgresql/data
     networks:
       - symfony_network
+    ports:
+      - "5433:5432"
 
 volumes:
   postgres_data:
